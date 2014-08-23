@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Connected Worlds | LD48</title>
+        <script src="js/processing.js"></script>
+        <script src="js/game.js"></script>
+        <script src="js/player.js"></script>
+        <script src="js/world.js"></script>
+        <script src="js/utils.js"></script>
+        <style>
+            html, body {background-color: #000; padding: 0; margin: 0; text-align: center;}
+            canvas {background-color: #555; width: 800px; height: 600px; margin-top: 50px;}
+        </style>
+    </head>
+    <body>
+        <canvas id="canvas"></canvas>
+        <script>
+            var c = document.getElementById("canvas");
+            var proc = new Processing(c, Game.init);
+        </script>
+    </body>
+</html>
