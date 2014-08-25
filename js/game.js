@@ -231,6 +231,7 @@ var Game = {
   },
 
   drawDialog: function(text) {
+    Game.p.textSize(12);
     Game.p.stroke(255);
     Game.p.fill(0, 0, 0, 160);
     Game.p.rect(200, Game.halfHeight - 50, Game.p.width - 400, 100, 8);
@@ -249,7 +250,7 @@ var Game = {
 
   drawCredits: function() {
     Game.p.background(0);
-    Game.drawDialog("THAT'S ALL FOLKS!\nTHANKS FOR PLAYING!\n\nFeedback: @wesleyjohnson");
+    Game.drawDialog("THAT'S ALL..... FOR NOW\nTHANKS FOR PLAYING!\n\nFeedback: @wesleyjohnson");
   },
 
   draw: function() {
