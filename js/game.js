@@ -96,7 +96,7 @@ var Game = {
     switch(Game.gameState) {
       case Game.GAME_STATE_START:
         if(Game.anyKey()) {
-          Game.loadLevel(worlds.length - 1);
+          Game.loadLevel(0);
         }
         break;
 
