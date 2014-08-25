@@ -1,3 +1,9 @@
+/*
+ * Connected Worlds
+ * Completed for Ludum Dare 30/48
+ * Author: Wesley Johnson @wesleyjohnson
+ */
+
 var Game = {
   GAME_STATE_START: "start",
   GAME_STATE_PLAYING: "playing",

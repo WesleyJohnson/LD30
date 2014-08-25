@@ -1,3 +1,10 @@
+/*
+ * Connected Worlds
+ * Completed for Ludum Dare 30/48
+ * Author: Wesley Johnson @wesleyjohnson
+ */
+
+
 var Player = function(x, y, world) {
   this.x = x;
   this.y = y;

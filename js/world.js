@@ -1,3 +1,9 @@
+/*
+ * Connected Worlds
+ * Completed for Ludum Dare 30/48
+ * Author: Wesley Johnson @wesleyjohnson
+ */
+
 var worlds = [];
 var nextWorld = {
   norm: [
